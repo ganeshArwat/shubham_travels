@@ -1,0 +1,21 @@
+# Node modules (required packages)
+node_modules/
+
+# Vite build output
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv environment files
+.env
+.env.*.local
+.env.local
+
+
+# Other server-specific ignored files
+server/node_modules/
+server/public/client_media/
