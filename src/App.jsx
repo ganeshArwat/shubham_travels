@@ -5,6 +5,7 @@ import Services from './features/Services';
 import Vehicles from './features/Vehicles';
 import ContactUs from './features/ContactUs';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Footer from './ui/Footer';
 
 function App() {
   return(
@@ -26,6 +27,7 @@ function App() {
             <Services />
             <Vehicles />
             <ContactUs />
+            <Footer />
           </div>
         </main>
       </div>

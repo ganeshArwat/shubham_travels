@@ -1,49 +1,53 @@
 import React from 'react';
-import carImage from '/assets/img/hero2.jpeg'; // Ensure this path is correct
 
 const Home = () => {
   return (
     <section
       id="home"
-      className="pt-28 pb-16 bg-gradient-to-br from-white via-gray-50 to-blue-50"
+      className="relative pt-32 pb-20 bg-gradient-to-br from-white via-sky-50 to-blue-100 overflow-hidden"
     >
-      <div className="container mx-auto px-4 flex flex-col-reverse md:flex-row items-center justify-between gap-12">
-        {/* Left Text Content */}
-        <div className="md:w-1/2 text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-snug md:leading-tight">
-            Drive in Comfort with <br />
-            <span className="text-blue-600">Shubham Travels</span>
+      {/* Background shape */}
+      <div className="absolute top-0 right-0 w-1/2 h-full opacity-10 z-0 pointer-events-none">
+        <img src="/assets/img/hero/bg2.png" alt="" className="h-full object-cover mix-blend-multiply" />
+      </div>
+
+      <div className="relative z-10 max-w-7xl mx-auto px-6 flex flex-col-reverse md:flex-row items-center justify-between gap-16">
+        {/* Left Content */}
+        <div className="md:w-1/2 text-center md:text-left space-y-6">
+          <h1 className="text-2xl md:text-3xl font-semibold text-gray-800 leading-relaxed tracking-normal">
+            Drive with Style & Comfort <br />
+            <span className="text-[#7b1f1f] font-bold">Shubham Tours & Travels</span>
           </h1>
-          <p className="mt-4 text-gray-600 text-lg leading-relaxed">
-            Experience premium car rental services with a wide range of vehicles
-            tailored for comfort, style, and safety. Explore the city or travel
-            outstation with confidence.
+
+          <p className="text-gray-600 text-base md:text-lg leading-relaxed max-w-xl mx-auto md:mx-0">
+            Premium white cars. Safe, clean, and reliable. <br className="hidden sm:block" />
+            Travel across Mumbai and beyond with elegance and peace of mind.
           </p>
 
-          <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
               href="#booking"
-              className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-full font-semibold shadow-md transition duration-300"
+              className="bg-[#7b1f1f] hover:bg-[#5e1515] text-white px-6 py-3 rounded-full font-medium shadow-md transition duration-300"
             >
               🚗 Book Now
             </a>
             <a
               href="#vehicles"
-              className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-full font-semibold shadow-sm transition duration-300"
+              className="border-2 border-[#7b1f1f] text-[#7b1f1f] hover:bg-[#7b1f1f] hover:text-white px-6 py-3 rounded-full font-medium shadow-sm transition duration-300"
             >
               View Fleet
             </a>
           </div>
         </div>
 
-        {/* Right Car Image */}
+        {/* Right Image */}
         <div className="md:w-1/2 relative">
+          <div className="absolute -top-6 -left-6 w-28 h-28 bg-blue-100 rounded-full blur-2xl opacity-50 z-0"></div>
           <img
-            src={carImage}
+            src="/assets/img/hero/car1.jpg"
             alt="Luxury Car"
-            className="w-full max-w-md mx-auto rounded-xl shadow-2xl hover:scale-105 transition-transform duration-500"
+            className="w-full max-w-md mx-auto rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-500 z-10 relative"
           />
-          <div className="absolute -top-6 -left-6 w-24 h-24 bg-blue-100 rounded-full blur-2xl opacity-60 z-0"></div>
         </div>
       </div>
     </section>
