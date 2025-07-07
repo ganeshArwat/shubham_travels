@@ -1,26 +1,26 @@
 import React from 'react';
-import { FaMapMarkedAlt, FaBus, FaCity, FaUserTie } from 'react-icons/fa';
+import { FaMapMarkedAlt, FaBus, FaPlaneArrival, FaCity } from 'react-icons/fa';
 
 const services = [
+  {
+    icon: <FaCity className="text-5xl text-[#7b1f1f] mb-4" />,
+    title: 'Local Tours',
+    desc: 'Enjoy nearby attractions and local sightseeing with our flexible tour options.',
+  },
   {
     icon: <FaMapMarkedAlt className="text-5xl text-[#7b1f1f] mb-4" />,
     title: 'Outstation Trips',
     desc: 'Comfortable and reliable travel across cities with professional drivers.',
   },
   {
-    icon: <FaCity className="text-5xl text-[#7b1f1f] mb-4" />,
-    title: 'City Tours',
-    desc: 'Explore major attractions with our guided and flexible city tour packages.',
+    icon: <FaPlaneArrival className="text-5xl text-[#7b1f1f] mb-4" />,
+    title: 'Airport Pickup & Drop',
+    desc: 'On-time airport transfers with clean and well-maintained vehicles.',
   },
   {
     icon: <FaBus className="text-5xl text-[#7b1f1f] mb-4" />,
     title: 'Group Travel',
     desc: 'Minibuses and vans for family functions, picnics, and office trips.',
-  },
-  {
-    icon: <FaUserTie className="text-5xl text-[#7b1f1f] mb-4" />,
-    title: 'Corporate Bookings',
-    desc: 'Customized travel solutions for businesses, events, and VIP movement.',
   },
 ];
 

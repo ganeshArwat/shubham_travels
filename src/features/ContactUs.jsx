@@ -30,8 +30,8 @@ const ContactUs = () => {
             </div>
             <h3 className="text-lg font-semibold mb-2">Phone Numbers</h3>
             <p className="text-gray-600 text-sm leading-relaxed">
-              +91 79778 36678<br />
-              +91 93262 21811
+              +91 93262 21811 <br />
+              +91 79778 36678
             </p>
           </div>
 
