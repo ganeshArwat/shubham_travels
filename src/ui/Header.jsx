@@ -56,7 +56,7 @@ const Header = () => {
 
         {/* CTA */}
         <a
-          href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20a%20vehicle"
+          href="https://wa.me/9326221811?text=Hi%2C%20I%20want%20to%20book%20a%20vehicle"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:inline-block bg-[#7b1f1f] text-white px-5 py-2 rounded-md hover:bg-[#5c1515] transition duration-200 text-sm font-semibold shadow-sm"

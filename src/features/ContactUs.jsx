@@ -1,5 +1,10 @@
 import React from 'react';
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaInstagram } from 'react-icons/fa';
+import {
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaInstagram
+} from 'react-icons/fa';
 
 const ContactUs = () => {
   return (
@@ -30,9 +35,23 @@ const ContactUs = () => {
             </div>
             <h3 className="text-lg font-semibold mb-2">Phone Numbers</h3>
             <p className="text-gray-600 text-sm leading-relaxed">
-              +91 93262 21811 <br />
-              +91 79778 36678
+              <a href="tel:+919326221811" className="text-blue-600 hover:underline block">
+                +91 93262 21811
+              </a>
+              <a href="tel:+917977836678" className="text-blue-600 hover:underline block">
+                +91 79778 36678
+              </a>
             </p>
+            <div className="mt-3">
+              <a
+                href="https://wa.me/9326221811"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-green-600 hover:underline"
+              >
+                Chat on WhatsApp
+              </a>
+            </div>
           </div>
 
           {/* Email */}
@@ -42,7 +61,12 @@ const ContactUs = () => {
             </div>
             <h3 className="text-lg font-semibold mb-2">Email</h3>
             <p className="text-gray-600 text-sm leading-relaxed">
-              shubhamtours777@gmail.com
+              <a
+                href="mailto:shubhamtours777@gmail.com"
+                className="text-blue-600 hover:underline"
+              >
+                shubhamtours777@gmail.com
+              </a>
             </p>
           </div>
 
@@ -61,6 +85,18 @@ const ContactUs = () => {
               @shubham_travels_7484
             </a>
           </div>
+        </div>
+
+        {/* Subtle CTA for Booking */}
+        <div className="mt-12 text-center">
+          <a
+            href="https://wa.me/9326221811?text=Hi%20Shubham%20Travels%2C%20I%20would%20like%20to%20book%20a%20trip."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block border border-[#7b1f1f] text-[#7b1f1f] px-6 py-2 rounded-full text-sm hover:bg-[#7b1f1f] hover:text-white transition"
+          >
+            Book Now via WhatsApp
+          </a>
         </div>
       </div>
     </section>

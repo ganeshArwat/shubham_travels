@@ -25,7 +25,7 @@ const Home = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
-              href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20a%20vehicle"
+              href="https://wa.me/9326221811?text=Hi%2C%20I%20want%20to%20book%20a%20vehicle"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#7b1f1f] hover:bg-[#5e1515] text-white px-6 py-3 rounded-full font-medium shadow-md transition duration-300"

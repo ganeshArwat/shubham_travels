@@ -50,7 +50,7 @@ const Services = () => {
         {/* Book Now Button */}
         <div className="text-center">
           <a
-            href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20a%20vehicle"
+            href="https://wa.me/9326221811?text=Hi%2C%20I%20want%20to%20book%20a%20vehicle"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-[#7b1f1f] text-white px-8 py-3 rounded-full text-base font-medium hover:bg-[#5e1515] transition duration-300 shadow-md"
