@@ -1,5 +1,4 @@
-import React from 'react';
-
+import { Link as ScrollLink } from 'react-scroll';
 const Home = () => {
   return (
     <section
@@ -26,17 +25,20 @@ const Home = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
-              href="#booking"
+              href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20a%20vehicle"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-[#7b1f1f] hover:bg-[#5e1515] text-white px-6 py-3 rounded-full font-medium shadow-md transition duration-300"
             >
               🚗 Book Now
             </a>
-            <a
-              href="#vehicles"
+            <ScrollLink
+              to="vehicles"
+              smooth={true} duration={500} offset={-80}
               className="border-2 border-[#7b1f1f] text-[#7b1f1f] hover:bg-[#7b1f1f] hover:text-white px-6 py-3 rounded-full font-medium shadow-sm transition duration-300"
             >
               View Fleet
-            </a>
+            </ScrollLink>
           </div>
         </div>
 
