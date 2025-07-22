@@ -9,7 +9,7 @@ const AboutUs = () => {
         <div className="md:w-1/2">
           <img
             src={aboutImage}
-            alt="About Shubham Travels"
+            alt="About Travel Empire"
             className="rounded-2xl shadow-xl w-full max-w-lg mx-auto md:mx-0"
           />
         </div>
@@ -17,11 +17,11 @@ const AboutUs = () => {
         {/* Right Content */}
         <div className="md:w-1/2">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6 leading-snug">
-            Why Choose <span className="text-[#7b1f1f]">Shubham Travels?</span>
+            Why Choose <span className="text-[#7b1f1f]">Travel Empire?</span>
           </h2>
           <p className="text-gray-600 text-base md:text-lg mb-6 leading-relaxed">
             With over a decade of experience providing comfortable and safe travel across India, 
-            Shubham Travels is your trusted partner for road journeys. Whether you're planning a short city ride 
+            Travel Empire is your trusted partner for road journeys. Whether you're planning a short city ride 
             or a long-distance trip, our well-maintained fleet and professional drivers ensure peace of mind.
           </p>
 

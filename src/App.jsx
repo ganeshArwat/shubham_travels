@@ -11,8 +11,8 @@ function App() {
   return(
     <HelmetProvider>
       <Helmet>
-        <title>Shubham Travels | Trusted Travel Agency</title>
-        <meta name="description" content="Travel in comfort with Shubham Travels – vehicle rentals and trip planning made easy." />
+        <title>The Travel Empire | Trusted Travel Agency</title>
+        <meta name="description" content="Travel in comfort with The Travel Empire - vehicle rentals and trip planning made easy." />
       </Helmet>
       <div className="flex flex-col min-h-screen">
 

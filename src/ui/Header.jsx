@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import { FiMenu, FiX } from 'react-icons/fi';
-import logo from '/assets/img/logo_bg.png'; // ✅ Ensure this path is correct
+// import logo from '/assets/img/logo_bg.png'; // ✅ Ensure this path is correct
+import logo from '/assets/logo/logo1.png'; // ✅ Ensure this path is correct
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,15 +26,14 @@ const Header = () => {
           <ScrollLink to="home" smooth={true} duration={500} offset={-80} className="cursor-pointer">
             <img
               src={logo}
-              alt="Shubham Tours and Travels Logo"
+              alt="THE TRAVEL EMPIRE Logo"
               className="w-12 h-12 object-contain"
             />
           </ScrollLink>
           <span className="text-xl md:text-2xl font-bold tracking-tight text-gray-900 leading-tight">
-            <span className="text-[#1c1c1c]">Shubham</span>{' '}
-            <span className="text-[#7b1f1f]">Tours</span>{' '}
-            <span className="text-[#1c1c1c]">and</span>{' '}
-            <span className="text-[#7b1f1f]">Travels</span>
+            <span className="text-[#1c1c1c]">The</span>{' '}
+            <span className="text-[#7b1f1f]">Travel</span>{' '}
+            <span className="text-[#1c1c1c]">Empire</span>
           </span>
         </div>
 

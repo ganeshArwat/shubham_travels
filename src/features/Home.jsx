@@ -15,7 +15,7 @@ const Home = () => {
         <div className="md:w-1/2 text-center md:text-left space-y-6">
           <h1 className="text-2xl md:text-3xl font-semibold text-gray-800 leading-relaxed tracking-normal">
             Drive with Style & Comfort <br />
-            <span className="text-[#7b1f1f] font-bold">Shubham Tours & Travels</span>
+            <span className="text-[#7b1f1f] font-bold">The Travel Empire</span>
           </h1>
 
           <p className="text-gray-600 text-base md:text-lg leading-relaxed max-w-xl mx-auto md:mx-0">
