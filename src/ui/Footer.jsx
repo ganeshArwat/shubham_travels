@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="relative z-10 mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 sm:grid-cols-2 md:grid-cols-4">
         {/* Brand */}
         <div>
-          <h3 className="mb-4 text-2xl font-bold">Shubham Travels</h3>
+          <h3 className="mb-4 text-2xl font-bold">The Travel Empire</h3>
           <p className="text-sm leading-relaxed text-gray-100">
             Your trusted partner for safe, stylish, and comfortable rides across
             Mumbai and beyond.
@@ -77,10 +77,10 @@ const Footer = () => {
                 <FaEnvelope className="text-lg text-white" />
               </div>
               <a
-                href="mailto:shubhamtours777@gmail.com"
+                href="mailto:thetravelempire24@gmail.com"
                 className="hover:underline"
               >
-                shubhamtours777@gmail.com
+                thetravelempire24@gmail.com
               </a>
             </li>
           </ul>
@@ -90,7 +90,7 @@ const Footer = () => {
         <div>
           <h4 className="mb-4 text-lg font-semibold">Follow Us</h4>
           <a
-            href="https://www.instagram.com/shubham_travels_7484"
+            href="https://www.instagram.com/the_travel_empire7484"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 text-sm text-gray-100 transition hover:text-white hover:underline"
@@ -98,7 +98,7 @@ const Footer = () => {
             <div className="rounded-full bg-white/10 p-2">
               <FaInstagram className="text-lg text-white" />
             </div>
-            @shubham_travels_7484
+            @the_travel_empire7484
           </a>
         </div>
       </div>

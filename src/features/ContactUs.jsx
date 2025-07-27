@@ -62,10 +62,10 @@ const ContactUs = () => {
             <h3 className="text-lg font-semibold mb-2">Email</h3>
             <p className="text-gray-600 text-sm leading-relaxed">
               <a
-                href="mailto:shubhamtours777@gmail.com"
+                href="mailto:thetravelempire24@gmail.com"
                 className="text-blue-600 hover:underline"
               >
-                shubhamtours777@gmail.com
+                thetravelempire24@gmail.com
               </a>
             </p>
           </div>
@@ -77,12 +77,12 @@ const ContactUs = () => {
             </div>
             <h3 className="text-lg font-semibold mb-2">Instagram</h3>
             <a
-              href="https://www.instagram.com/shubham_travels_7484"
+              href="https://www.instagram.com/the_travel_empire7484"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 text-sm underline hover:text-blue-800 transition"
             >
-              @shubham_travels_7484
+              @the_travel_empire7484
             </a>
           </div>
         </div>
@@ -90,7 +90,7 @@ const ContactUs = () => {
         {/* Subtle CTA for Booking */}
         <div className="mt-12 text-center">
           <a
-            href="https://wa.me/9326221811?text=Hi%20Shubham%20Travels%2C%20I%20would%20like%20to%20book%20a%20trip."
+            href="https://wa.me/9326221811?text=Hi%20Travel%20Empire%2C%20I%20would%20like%20to%20book%20a%20trip."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block border border-[#7b1f1f] text-[#7b1f1f] px-6 py-2 rounded-full text-sm hover:bg-[#7b1f1f] hover:text-white transition"
