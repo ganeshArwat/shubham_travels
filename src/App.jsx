@@ -12,7 +12,7 @@ function App() {
     <HelmetProvider>
       <Helmet>
         <title>The Travel Empire | Trusted Travel Agency</title>
-        <meta name="description" content="Travel in comfort with The Travel Empire - vehicle rentals and trip planning made easy." />
+        <meta name="description" content="The Travel Empire offers the best travel services, vehicle rentals, and trip packages. Contact us for unforgettable journeys." />
       </Helmet>
       <div className="flex flex-col min-h-screen">
 
